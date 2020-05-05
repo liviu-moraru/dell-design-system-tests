@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mini Buttons</title>
+        <link rel="stylesheet" href="./node_modules/@dds-uicore/all/dist/css/dds-reboot.min.css" />
+        <link rel="stylesheet" href="./node_modules/@dds-uicore/all/dist/css/dds-grid.css" />
+        <link rel="stylesheet" href="./node_modules/@dds-uicore/all/dist/css/dds-all-with-fonts.css" />
+    </head>
+    <body>
+        <p class="h2-component">
+            Mini buttons are limited to data tables where space is at a premium. Tables may also use links (for
+            navigation) and buttons styled as a links (for lesser actions).
+        </p>
+        <p><b>Primary Non-Purchase Mini</b></p>
+        <button type="button" class="dds__btn dds__btn-primary dds__btn-sm dds__text-truncate">Primary Mini</button>
+        <br />
+        <p><b>Inside a container</b></p>
+        <div style="width: 50%;">
+            <button role="button" type="button" class="dds__btn dds__btn-primary dds__btn-sm dds__text-truncate">
+                Shop Gaming PC and all the rest in the world. Happy New Year
+                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+            </button>
+        </div>
+        <p><b>Secondary Mini</b></p>
+        <p>
+            Used for <strong>important actions within data tables that are not the primary page purpose</strong>. If the
+            CTA is for navigation rather than performing an action, use a
+            <a href="#">link styled as a button</a> instead.
+        </p>
+        <button type="button" class="dds__btn dds__btn-secondary dds__btn-sm dds__text-truncate">Secondary Mini</button>
+        <p><b>Purchased Mini</b></p>
+        <p>
+            Used for
+            <strong
+                >actions within data tables that serve the primary purpose of the page, which are related to making a
+                purchase</strong
+            >. If the CTA is for navigation rather than performing an action, use a
+            <a href="#">link styled as a button</a> instead.
+        </p>
+        <button type="button" class="dds__btn dds__btn-purchase dds__btn-sm dds__text-truncate">Purchase Mini</button>
+    </body>
+</html>
